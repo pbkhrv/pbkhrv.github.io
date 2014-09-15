@@ -1,0 +1,21 @@
+<html>
+<head>
+  <title>Smycke</title>
+  <link rel="stylesheet" href="index.css">
+  <script type="text/javascript" src="jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="lodash.min.js"></script>
+  <script type="text/javascript" src="smyckr.js"></script>
+  <script type="text/javascript" src="processing-v1.4.8.js"></script>
+  <script type="text/javascript" src="draw.js"></script>
+</head>
+<body onload="run();" style="background: #FFF; font-family: Georgia;">
+  <!--  <div style="background: #FFF; padding: 5px;"> -->
+    <h4>Random pattern generator for the <a href="http://www.ikea.com/us/en/catalog/products/80232223/" target="_blank">IKEA Smycke clock</a>.</h4>
+    <center><input type="submit" onclick="makeNewPattern(); return false;" value="Make a new pattern" name="Make a new pattern"></input></center>
+
+    <!--  </div> -->
+  <canvas id="canvas1"></canvas>
+  Source code and explanation: <a href="http://github.com/pbkhrv/smycke-clock-pattern-generator" target="_blank">Github</a> | Twitter: <a href="http://twitter.com/bakhirev" target="_blank">@bakhirev</a> | <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0;" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
+</body>
+</html>
+
